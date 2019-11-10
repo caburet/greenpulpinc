@@ -175,7 +175,7 @@ scale = Vector2( 0.3, 0.3 )
 z_index = -10
 frames = SubResource( 2 )
 animation = "New Anim"
-frame = 13
+frame = 12
 speed_scale = 2.0
 playing = true
 
@@ -186,7 +186,7 @@ position = Vector2( 521.238, 266.346 )
 scale = Vector2( 0.3, 0.3 )
 frames = SubResource( 3 )
 animation = "New Anim"
-frame = 4
+frame = 1
 playing = true
 
 [node name="cinta" type="Node" parent="."]
@@ -197,6 +197,7 @@ position = Vector2( 506.918, 376.609 )
 scale = Vector2( 0.4, 0.3 )
 frames = SubResource( 4 )
 animation = "New Anim"
+frame = 5
 speed_scale = 2.0
 playing = true
 
@@ -215,6 +216,7 @@ z_index = 20
 texture = ExtResource( 41 )
 
 [node name="Fondo" type="Node" parent="."]
+editor/display_folded = true
 
 [node name="Fonda arriba" type="Sprite" parent="Fondo"]
 position = Vector2( 502.593, 311.803 )

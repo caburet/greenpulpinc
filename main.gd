@@ -10,13 +10,13 @@ func _ready():
 func _on_timer_timeout():
    spawn()
 #----------------------------------------------------------------------------------
+
 func spawn():
 	if Globals.objects>0:
 		var bulletscene = preload("res://vaso.tscn")
 		var bullet = bulletscene.instance()
 		add_child(bullet)
 		print ("cargo")
-
 func _on_Timer_timeout():
 	spawn()
 	pass # Replace with function body.
