@@ -2,45 +2,45 @@
 
 [ext_resource path="res://main.gd" type="Script" id=1]
 [ext_resource path="res://BebasNeue-Regular.ttf" type="DynamicFontData" id=2]
-[ext_resource path="res://assest/bien.png" type="Texture" id=3]
-[ext_resource path="res://assest/mal.png" type="Texture" id=4]
-[ext_resource path="res://pulponuevo/Armature_animtion0_00.png" type="Texture" id=5]
-[ext_resource path="res://pulponuevo/Armature_animtion0_01.png" type="Texture" id=6]
-[ext_resource path="res://pulponuevo/Armature_animtion0_02.png" type="Texture" id=7]
-[ext_resource path="res://pulponuevo/Armature_animtion0_03.png" type="Texture" id=8]
-[ext_resource path="res://pulponuevo/Armature_animtion0_04.png" type="Texture" id=9]
-[ext_resource path="res://pulponuevo/Armature_animtion0_05.png" type="Texture" id=10]
-[ext_resource path="res://pulponuevo/Armature_animtion0_06.png" type="Texture" id=11]
-[ext_resource path="res://pulponuevo/Armature_animtion0_07.png" type="Texture" id=12]
-[ext_resource path="res://pulponuevo/Armature_animtion0_08.png" type="Texture" id=13]
-[ext_resource path="res://pulponuevo/Armature_animtion0_09.png" type="Texture" id=14]
-[ext_resource path="res://pulponuevo/Armature_animtion0_10.png" type="Texture" id=15]
-[ext_resource path="res://pulponuevo/Armature_animtion0_11.png" type="Texture" id=16]
-[ext_resource path="res://pulponuevo/Armature_animtion0_12.png" type="Texture" id=17]
-[ext_resource path="res://pulponuevo/Armature_animtion0_13.png" type="Texture" id=18]
-[ext_resource path="res://pulponuevo/Armature_animtion0_14.png" type="Texture" id=19]
-[ext_resource path="res://pulponuevo/Armature_animtion0_15.png" type="Texture" id=20]
-[ext_resource path="res://pulponuevo/Armature_animtion0_16.png" type="Texture" id=21]
-[ext_resource path="res://pulponuevo/Armature_animtion0_17.png" type="Texture" id=22]
-[ext_resource path="res://pulponuevo/Armature_animtion0_18.png" type="Texture" id=23]
-[ext_resource path="res://pulponuevo/Armature_animtion0_19.png" type="Texture" id=24]
-[ext_resource path="res://pulponuevo/Armature_animtion0_20.png" type="Texture" id=25]
-[ext_resource path="res://pulponuevo/Armature_animtion0_21.png" type="Texture" id=26]
-[ext_resource path="res://pulponuevo/Armature_animtion0_22.png" type="Texture" id=27]
-[ext_resource path="res://pulponuevo/Armature_animtion0_23.png" type="Texture" id=28]
-[ext_resource path="res://manos/palanca 0.png" type="Texture" id=29]
-[ext_resource path="res://manos/palanca 1.png" type="Texture" id=30]
-[ext_resource path="res://manos/palanca 2.png" type="Texture" id=31]
-[ext_resource path="res://manos/palanca 3.png" type="Texture" id=32]
-[ext_resource path="res://manos/palanca 4.png" type="Texture" id=33]
-[ext_resource path="res://cinta animacion/1 cinta.jpg" type="Texture" id=34]
-[ext_resource path="res://cinta animacion/2 cinta.jpg" type="Texture" id=35]
-[ext_resource path="res://cinta animacion/3 cinta.jpg" type="Texture" id=36]
-[ext_resource path="res://cinta animacion/4 cinta.jpg" type="Texture" id=37]
-[ext_resource path="res://cinta animacion/5 cinta.jpg" type="Texture" id=38]
-[ext_resource path="res://cinta animacion/6 cinta.jpg" type="Texture" id=39]
-[ext_resource path="res://assetsnpulpo/tachos.png" type="Texture" id=40]
-[ext_resource path="res://assetsnpulpo/tacho 2.png" type="Texture" id=41]
+[ext_resource path="res://assets-gui/bien.png" type="Texture" id=3]
+[ext_resource path="res://assets-gui/mal.png" type="Texture" id=4]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_00.png" type="Texture" id=5]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_01.png" type="Texture" id=6]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_02.png" type="Texture" id=7]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_03.png" type="Texture" id=8]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_04.png" type="Texture" id=9]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_05.png" type="Texture" id=10]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_06.png" type="Texture" id=11]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_07.png" type="Texture" id=12]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_08.png" type="Texture" id=13]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_09.png" type="Texture" id=14]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_10.png" type="Texture" id=15]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_11.png" type="Texture" id=16]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_12.png" type="Texture" id=17]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_13.png" type="Texture" id=18]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_14.png" type="Texture" id=19]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_15.png" type="Texture" id=20]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_16.png" type="Texture" id=21]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_17.png" type="Texture" id=22]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_18.png" type="Texture" id=23]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_19.png" type="Texture" id=24]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_20.png" type="Texture" id=25]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_21.png" type="Texture" id=26]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_22.png" type="Texture" id=27]
+[ext_resource path="res://assets-pulpo/animacion pulpo/Armature_animtion0_23.png" type="Texture" id=28]
+[ext_resource path="res://assets-pulpo/palancas/palanca 0.png" type="Texture" id=29]
+[ext_resource path="res://assets-pulpo/palancas/palanca 1.png" type="Texture" id=30]
+[ext_resource path="res://assets-pulpo/palancas/palanca 2.png" type="Texture" id=31]
+[ext_resource path="res://assets-pulpo/palancas/palanca 3.png" type="Texture" id=32]
+[ext_resource path="res://assets-pulpo/palancas/palanca 4.png" type="Texture" id=33]
+[ext_resource path="res://assets-esc/cinta/1 cinta.jpg" type="Texture" id=34]
+[ext_resource path="res://assets-esc/cinta/2 cinta.jpg" type="Texture" id=35]
+[ext_resource path="res://assets-esc/cinta/3 cinta.jpg" type="Texture" id=36]
+[ext_resource path="res://assets-esc/cinta/4 cinta.jpg" type="Texture" id=37]
+[ext_resource path="res://assets-esc/cinta/5 cinta.jpg" type="Texture" id=38]
+[ext_resource path="res://assets-esc/cinta/6 cinta.jpg" type="Texture" id=39]
+[ext_resource path="res://assets-esc/tachos/tachos.png" type="Texture" id=40]
+[ext_resource path="res://assets-esc/tachos/tacho 2.png" type="Texture" id=41]
 [ext_resource path="res://assest/fondo 4.png" type="Texture" id=42]
 [ext_resource path="res://assest/fondo 3.png" type="Texture" id=43]
 [ext_resource path="res://assets/filmgrain.png" type="Texture" id=44]
@@ -55,7 +55,7 @@ font_data = ExtResource( 2 )
 animations = [ {
 "frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ) ],
 "loop": true,
-"name": "default",
+"name": "New Anim",
 "speed": 5.0
 } ]
 
@@ -63,7 +63,7 @@ animations = [ {
 animations = [ {
 "frames": [ ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ) ],
 "loop": true,
-"name": "default",
+"name": "New Anim",
 "speed": 5.0
 } ]
 
@@ -71,7 +71,7 @@ animations = [ {
 animations = [ {
 "frames": [ ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ) ],
 "loop": true,
-"name": "default",
+"name": "New Anim",
 "speed": 5.0
 } ]
 
@@ -135,7 +135,6 @@ text = "0
 "
 
 [node name="ok" type="Node2D" parent="."]
-editor/display_folded = true
 position = Vector2( -78.9248, -26.3083 )
 
 [node name="Sprite5" type="Sprite" parent="ok"]
@@ -168,12 +167,14 @@ autostart = true
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
 [node name="Pulpo" type="Node" parent="."]
+editor/display_folded = true
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Pulpo"]
 position = Vector2( 542.491, 221.383 )
 scale = Vector2( 0.3, 0.3 )
 z_index = -10
 frames = SubResource( 2 )
+animation = "New Anim"
 frame = 13
 speed_scale = 2.0
 playing = true
@@ -184,20 +185,23 @@ playing = true
 position = Vector2( 521.238, 266.346 )
 scale = Vector2( 0.3, 0.3 )
 frames = SubResource( 3 )
+animation = "New Anim"
 frame = 4
 playing = true
 
 [node name="cinta" type="Node" parent="."]
+editor/display_folded = true
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="cinta"]
 position = Vector2( 506.918, 376.609 )
 scale = Vector2( 0.4, 0.3 )
 frames = SubResource( 4 )
-frame = 4
+animation = "New Anim"
 speed_scale = 2.0
 playing = true
 
 [node name="Basureros" type="Node" parent="."]
+editor/display_folded = true
 
 [node name="Fondo" type="Sprite" parent="Basureros"]
 position = Vector2( 582.813, 514.078 )

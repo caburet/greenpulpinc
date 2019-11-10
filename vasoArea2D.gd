@@ -53,9 +53,9 @@ func _physics_process(delta):
 #----------------------------------------------------------------------------------
 func _on_Area2D_input_event(viewport, event, shape_idx):
 	var tiempo  
-	var bien = preload("res://assest/bien.png")
+	var bien = preload("res://assets-gui/bien.png")
 	
-	var mal = preload("res://assest/mal.png")
+	var mal = preload("res://assets-gui/mal.png")
 	
 	if event is InputEventMouseButton:
 		if event.is_pressed():
