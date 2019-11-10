@@ -174,7 +174,7 @@ position = Vector2( 542.491, 221.383 )
 scale = Vector2( 0.3, 0.3 )
 z_index = -10
 frames = SubResource( 2 )
-frame = 2
+frame = 16
 speed_scale = 2.0
 playing = true
 
@@ -193,7 +193,7 @@ playing = true
 position = Vector2( 506.918, 376.609 )
 scale = Vector2( 0.4, 0.3 )
 frames = SubResource( 4 )
-frame = 5
+frame = 1
 speed_scale = 2.0
 playing = true
 
@@ -207,12 +207,13 @@ texture = ExtResource( 40 )
 [node name="Frente" type="Sprite" parent="Basureros"]
 position = Vector2( 581.381, 548.445 )
 scale = Vector2( 0.4, 0.4 )
+z_index = 20
 texture = ExtResource( 41 )
 
 [node name="Fondo" type="Node" parent="."]
 
 [node name="Fonda arriba" type="Sprite" parent="Fondo"]
-position = Vector2( 499.759, 277.803 )
+position = Vector2( 502.593, 311.803 )
 scale = Vector2( 0.3, 0.3 )
 z_index = -70
 texture = ExtResource( 42 )
@@ -221,7 +222,7 @@ texture = ExtResource( 42 )
 position = Vector2( 459.663, 571.357 )
 rotation = 3.14159
 scale = Vector2( 0.293, 0.293 )
-z_index = -1
+z_index = 10
 texture = ExtResource( 43 )
 flip_h = true
 
