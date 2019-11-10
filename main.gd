@@ -11,10 +11,11 @@ func _on_timer_timeout():
    spawn()
 #----------------------------------------------------------------------------------
 func spawn():
-	var bulletscene = preload("res://vaso.tscn")
-	var bullet = bulletscene.instance()
-	add_child(bullet)
-	print ("cargo")
+	if Globals.objects>0:
+		var bulletscene = preload("res://vaso.tscn")
+		var bullet = bulletscene.instance()
+		add_child(bullet)
+		print ("cargo")
 
 func _on_Timer_timeout():
 	spawn()
@@ -25,11 +26,14 @@ func _physics_process(delta):
 		$"ok/Sprite5".show()
 		Globals.showok = false
 		$"ok/Timerok".start()
-		get_tree().change_scene( "res://Fin.tscn")
 	if (Globals.shownotok):
 		$"notok/Sprite6".show()
 		Globals.shownotok = false
 		$"notok/Timernot".start()
+	if (Globals.objects <=0):
+		print ("timerendstart")
+		if $timerend.is_stopped():
+			$timerend.start()
 
 func _on_Timernot_timeout():
 	print ("timeout")
@@ -47,3 +51,9 @@ func _on_Timerok_timeout():
 func terminar():
 	get_tree().change_scene( "res://creditos.tscn")
 
+
+
+func _on_timerend_timeout():
+	print ("end")
+	get_tree().change_scene( "res://Fin.tscn")
+	pass # Replace with function body.
