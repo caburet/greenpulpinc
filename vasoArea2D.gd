@@ -66,6 +66,10 @@ func _on_Area2D_input_event(viewport, event, shape_idx):
 				Globals.showok = true
 				Globals.points += 1
 				Globals.velocity += 0.1
+				if Globals.spamtime<2:
+					Globals.spamtime -= 0.1
+				else:
+					Globals.spamtime -= 0.05
 			else:
 				Globals.shownotok = true
 				print ("mal")
