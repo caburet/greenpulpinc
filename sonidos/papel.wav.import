@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/papel.wav-77e6b462b9bfdbb6248aeebb5ad17e8a.sample"
+
+[deps]
+
+source_file="res://sonidos/papel.wav"
+dest_files=[ "res://.import/papel.wav-77e6b462b9bfdbb6248aeebb5ad17e8a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

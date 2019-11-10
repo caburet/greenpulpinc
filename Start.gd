@@ -16,5 +16,5 @@ func _ready():
 func _on_Area2D_input_event(viewport, event, shape_idx):
 	if event.is_pressed():
 		#Globals.objects=50
-		get_tree().change_scene("res://main.tscn")
+		get_tree().change_scene("res://intro.tscn")
 	pass # Replace with function body.

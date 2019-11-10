@@ -62,6 +62,14 @@ func _on_Area2D_input_event(viewport, event, shape_idx):
 			if not clicked:
 				clicked=true
 				if typearea +1 == int(event.position.x) / int(get_viewport().size.x/5):
+					if typearea==0:
+						$sound1.play()
+					if typearea==1:
+						$sound2.play()
+					if typearea==2:
+						$sound3.play()
+					if typearea==3:
+						$sound4.play()
 					
 					print ("bien")
 					Globals.showok = true
@@ -76,7 +84,13 @@ func _on_Area2D_input_event(viewport, event, shape_idx):
 							Globals.spamtime -= 0.01
 				else:
 					Globals.shownotok = true
+					
 					print ("mal")
 
 			
 			
+
+
+func _on_sound1_finished():
+	queue_free()
+	pass # Replace with function body.

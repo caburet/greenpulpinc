@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/cinta transportadora.ogg-5c44336eeeff164139c5b286cf38247f.oggstr"
+
+[deps]
+
+source_file="res://sonidos/cinta transportadora.ogg"
+dest_files=[ "res://.import/cinta transportadora.ogg-5c44336eeeff164139c5b286cf38247f.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

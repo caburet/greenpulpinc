@@ -28,6 +28,11 @@ func _physics_process(delta):
 		Globals.showok = false
 		$"ok/Timerok".start()
 	if (Globals.shownotok):
+		$errorsprite.show()
+		$sonidochicharra.play()
+		$silbato.hide()
+		$silvatogritando.show()
+		$silvatogritando.play()
 		$"notok/Sprite6".show()
 		Globals.shownotok = false
 		$"notok/Timernot".start()
@@ -39,6 +44,7 @@ func _physics_process(delta):
 func _on_Timernot_timeout():
 	print ("timeout")
 	$notok/Sprite6.hide()
+	$errorsprite.hide()
 	$"notok/Timernot".stop()
 	pass # Replace with function body.
 
@@ -57,4 +63,12 @@ func terminar():
 func _on_timerend_timeout():
 	print ("end")
 	get_tree().change_scene( "res://Fin.tscn")
+	pass # Replace with function body.
+
+
+func _on_silvatogritando_animation_finished():
+	$silvatogritando.hide()
+	$silvatogritando.stop()
+	$silbato.show()
+	
 	pass # Replace with function body.

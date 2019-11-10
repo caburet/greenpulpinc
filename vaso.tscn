@@ -1,8 +1,12 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://vaso.gd" type="Script" id=1]
 [ext_resource path="res://vasoArea2D.gd" type="Script" id=2]
 [ext_resource path="res://assest/images.png" type="Texture" id=3]
+[ext_resource path="res://sonidos/papel.wav" type="AudioStream" id=4]
+[ext_resource path="res://sonidos/vidrio.wav" type="AudioStream" id=5]
+[ext_resource path="res://sonidos/organico.wav" type="AudioStream" id=6]
+[ext_resource path="res://sonidos/plastico.wav" type="AudioStream" id=7]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 53.0926, 85.4272 )
@@ -29,4 +33,20 @@ texture = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true
 }
+
+[node name="sound1" type="AudioStreamPlayer" parent="Area2D"]
+stream = ExtResource( 4 )
+
+[node name="sound2" type="AudioStreamPlayer" parent="Area2D"]
+stream = ExtResource( 5 )
+
+[node name="sound3" type="AudioStreamPlayer" parent="Area2D"]
+stream = ExtResource( 6 )
+
+[node name="sound4" type="AudioStreamPlayer" parent="Area2D"]
+stream = ExtResource( 7 )
 [connection signal="input_event" from="Area2D" to="Area2D" method="_on_Area2D_input_event"]
+[connection signal="finished" from="Area2D/sound1" to="Area2D" method="_on_sound1_finished"]
+[connection signal="finished" from="Area2D/sound2" to="Area2D" method="_on_sound1_finished"]
+[connection signal="finished" from="Area2D/sound3" to="Area2D" method="_on_sound1_finished"]
+[connection signal="finished" from="Area2D/sound4" to="Area2D" method="_on_sound1_finished"]
