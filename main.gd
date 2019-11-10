@@ -22,7 +22,7 @@ func _on_Timer_timeout():
 	pass # Replace with function body.
 func _physics_process(delta):
 	$Timer.wait_time=Globals.spamtime
-	$Label.text=str(Globals.points)
+	$Label.text="%"+str(Globals.points*100 / Globals.totalobjects) 
 	if (Globals.showok):
 		$"ok/Sprite5".show()
 		Globals.showok = false

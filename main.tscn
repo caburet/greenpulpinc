@@ -174,7 +174,7 @@ position = Vector2( 542.491, 221.383 )
 scale = Vector2( 0.3, 0.3 )
 z_index = -10
 frames = SubResource( 2 )
-frame = 22
+frame = 13
 speed_scale = 2.0
 playing = true
 
@@ -184,6 +184,7 @@ playing = true
 position = Vector2( 521.238, 266.346 )
 scale = Vector2( 0.3, 0.3 )
 frames = SubResource( 3 )
+frame = 4
 playing = true
 
 [node name="cinta" type="Node" parent="."]
@@ -192,7 +193,7 @@ playing = true
 position = Vector2( 506.918, 376.609 )
 scale = Vector2( 0.4, 0.3 )
 frames = SubResource( 4 )
-frame = 1
+frame = 4
 speed_scale = 2.0
 playing = true
 
@@ -236,7 +237,7 @@ texture = ExtResource( 45 )
 expand = true
 
 [node name="timerend" type="Timer" parent="."]
-wait_time = 8.0
+wait_time = 4.84
 [connection signal="timeout" from="ok/Timerok" to="." method="_on_Timerok_timeout"]
 [connection signal="timeout" from="notok/Timernot" to="." method="_on_Timernot_timeout"]
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

@@ -14,11 +14,11 @@ var spamtime = 3
 var velocity2 = 3
 var spamtime2 = 1.5
 var objects= 50
+var totalobjects = 50
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	points =0
-	
 	pass # Replace with function body.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

@@ -59,20 +59,24 @@ func _on_Area2D_input_event(viewport, event, shape_idx):
 	
 	if event is InputEventMouseButton:
 		if event.is_pressed():
-			clicked=true
-			if typearea +1 == int(event.position.x) / int(get_viewport().size.x/5):
-				
-				print ("bien")
-				Globals.showok = true
-				Globals.points += 1
-				Globals.velocity += 0.1
-				if Globals.spamtime<2:
-					Globals.spamtime -= 0.1
+			if not clicked:
+				clicked=true
+				if typearea +1 == int(event.position.x) / int(get_viewport().size.x/5):
+					
+					print ("bien")
+					Globals.showok = true
+					Globals.points += 1
+					Globals.velocity += 0.1
+					if Globals.spamtime<2:
+						Globals.spamtime -= 0.1
+					else:
+						if Globals.spamtime<1.5:
+							Globals.spamtime -= 0.05
+						else:
+							Globals.spamtime -= 0.01
 				else:
-					Globals.spamtime -= 0.05
-			else:
-				Globals.shownotok = true
-				print ("mal")
+					Globals.shownotok = true
+					print ("mal")
 
 			
 			
