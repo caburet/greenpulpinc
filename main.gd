@@ -25,6 +25,7 @@ func _physics_process(delta):
 		$"ok/Sprite5".show()
 		Globals.showok = false
 		$"ok/Timerok".start()
+		get_tree().change_scene( "res://Fin.tscn")
 	if (Globals.shownotok):
 		$"notok/Sprite6".show()
 		Globals.shownotok = false
@@ -42,4 +43,7 @@ func _on_Timerok_timeout():
 	$"ok/Sprite5".hide()
 	$"ok/Timerok".stop()
 	pass # Replace with function body.
+	
+func terminar():
+	get_tree().change_scene( "res://creditos.tscn")
 

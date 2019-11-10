@@ -127,7 +127,7 @@ scale = Vector2( 0.3, 0.3 )
 z_index = -10
 frames = SubResource( 2 )
 animation = "Default"
-frame = 6
+frame = 9
 speed_scale = 2.0
 playing = true
 
@@ -137,7 +137,7 @@ playing = true
 position = Vector2( 521.238, 266.346 )
 scale = Vector2( 0.3, 0.3 )
 frames = SubResource( 3 )
-frame = 1
+frame = 4
 playing = true
 
 [node name="cinta" type="Node" parent="."]
@@ -146,7 +146,7 @@ playing = true
 position = Vector2( 506.918, 376.609 )
 scale = Vector2( 0.4, 0.3 )
 frames = SubResource( 4 )
-frame = 5
+frame = 2
 speed_scale = 2.0
 playing = true
 
