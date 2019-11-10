@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Anchors_Aweigh.ogg-011353c1fe74c39d4bb22603490ab217.oggstr"
+
+[deps]
+
+source_file="res://musica/Anchors_Aweigh.ogg"
+dest_files=[ "res://.import/Anchors_Aweigh.ogg-011353c1fe74c39d4bb22603490ab217.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
