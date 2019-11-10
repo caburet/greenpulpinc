@@ -5,7 +5,7 @@
 [ext_resource path="res://assest/images.png" type="Texture" id=3]
 
 [sub_resource type="CapsuleShape2D" id=1]
-radius = 31.2792
+radius = 44.5454
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 1 )

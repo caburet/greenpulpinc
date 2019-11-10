@@ -1,37 +1,48 @@
-[gd_scene load_steps=37 format=2]
+[gd_scene load_steps=48 format=2]
 
 [ext_resource path="res://main.gd" type="Script" id=1]
 [ext_resource path="res://BebasNeue-Regular.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://assest/bien.png" type="Texture" id=3]
 [ext_resource path="res://assest/mal.png" type="Texture" id=4]
-[ext_resource path="res://assetsnpulpo/animacion pulpo/Armature_animtion0_00.png" type="Texture" id=5]
-[ext_resource path="res://assetsnpulpo/animacion pulpo/Armature_animtion0_01.png" type="Texture" id=6]
-[ext_resource path="res://assetsnpulpo/animacion pulpo/Armature_animtion0_02.png" type="Texture" id=7]
-[ext_resource path="res://assetsnpulpo/animacion pulpo/Armature_animtion0_03.png" type="Texture" id=8]
-[ext_resource path="res://assetsnpulpo/animacion pulpo/Armature_animtion0_04.png" type="Texture" id=9]
-[ext_resource path="res://assetsnpulpo/animacion pulpo/Armature_animtion0_05.png" type="Texture" id=10]
-[ext_resource path="res://assetsnpulpo/animacion pulpo/Armature_animtion0_06.png" type="Texture" id=11]
-[ext_resource path="res://assetsnpulpo/animacion pulpo/Armature_animtion0_07.png" type="Texture" id=12]
-[ext_resource path="res://assetsnpulpo/animacion pulpo/Armature_animtion0_08.png" type="Texture" id=13]
-[ext_resource path="res://assetsnpulpo/animacion pulpo/Armature_animtion0_09.png" type="Texture" id=14]
-[ext_resource path="res://assetsnpulpo/animacion pulpo/Armature_animtion0_10.png" type="Texture" id=15]
-[ext_resource path="res://assetsnpulpo/animacion pulpo/Armature_animtion0_11.png" type="Texture" id=16]
-[ext_resource path="res://assetsnpulpo/animacion pulpo/Armature_animtion0_12.png" type="Texture" id=17]
-[ext_resource path="res://assetsnpulpo/animacion pulpo/Armature_animtion0_13.png" type="Texture" id=18]
-[ext_resource path="res://assetsnpulpo/animacion pulpo/Armature_animtion0_14.png" type="Texture" id=19]
-[ext_resource path="res://assetsnpulpo/animacion pulpo/Armature_animtion0_15.png" type="Texture" id=20]
-[ext_resource path="res://assetsnpulpo/palancas/palanca 0.png" type="Texture" id=21]
-[ext_resource path="res://assetsnpulpo/palancas/palanca 1.png" type="Texture" id=22]
-[ext_resource path="res://assetsnpulpo/palancas/palanca 2.png" type="Texture" id=23]
-[ext_resource path="res://assetsnpulpo/palancas/palanca 3.png" type="Texture" id=24]
-[ext_resource path="res://assetsnpulpo/palancas/palanca 4.png" type="Texture" id=25]
-[ext_resource path="res://assetsnpulpo/palancas/cinta/cinta 1.jpg" type="Texture" id=26]
-[ext_resource path="res://assetsnpulpo/palancas/cinta/cinta 2.jpg" type="Texture" id=27]
-[ext_resource path="res://assetsnpulpo/palancas/cinta/cinta 3.jpg" type="Texture" id=28]
-[ext_resource path="res://assetsnpulpo/palancas/cinta/cinta 4.jpg" type="Texture" id=29]
-[ext_resource path="res://assetsnpulpo/tachos.png" type="Texture" id=30]
-[ext_resource path="res://assetsnpulpo/tacho 2.png" type="Texture" id=31]
-[ext_resource path="res://assetsnpulpo/fondo.jpg" type="Texture" id=32]
+[ext_resource path="res://anima pulpo/Armature_animtion0_00.png" type="Texture" id=5]
+[ext_resource path="res://anima pulpo/Armature_animtion0_01.png" type="Texture" id=6]
+[ext_resource path="res://anima pulpo/Armature_animtion0_02.png" type="Texture" id=7]
+[ext_resource path="res://anima pulpo/Armature_animtion0_03.png" type="Texture" id=8]
+[ext_resource path="res://anima pulpo/Armature_animtion0_04.png" type="Texture" id=9]
+[ext_resource path="res://anima pulpo/Armature_animtion0_05.png" type="Texture" id=10]
+[ext_resource path="res://anima pulpo/Armature_animtion0_06.png" type="Texture" id=11]
+[ext_resource path="res://anima pulpo/Armature_animtion0_07.png" type="Texture" id=12]
+[ext_resource path="res://anima pulpo/Armature_animtion0_08.png" type="Texture" id=13]
+[ext_resource path="res://anima pulpo/Armature_animtion0_09.png" type="Texture" id=14]
+[ext_resource path="res://anima pulpo/Armature_animtion0_10.png" type="Texture" id=15]
+[ext_resource path="res://anima pulpo/Armature_animtion0_11.png" type="Texture" id=16]
+[ext_resource path="res://anima pulpo/Armature_animtion0_12.png" type="Texture" id=17]
+[ext_resource path="res://anima pulpo/Armature_animtion0_13.png" type="Texture" id=18]
+[ext_resource path="res://anima pulpo/Armature_animtion0_14.png" type="Texture" id=19]
+[ext_resource path="res://anima pulpo/Armature_animtion0_15.png" type="Texture" id=20]
+[ext_resource path="res://anima pulpo/Armature_animtion0_16.png" type="Texture" id=21]
+[ext_resource path="res://anima pulpo/Armature_animtion0_17.png" type="Texture" id=22]
+[ext_resource path="res://anima pulpo/Armature_animtion0_18.png" type="Texture" id=23]
+[ext_resource path="res://anima pulpo/Armature_animtion0_19.png" type="Texture" id=24]
+[ext_resource path="res://anima pulpo/Armature_animtion0_20.png" type="Texture" id=25]
+[ext_resource path="res://anima pulpo/Armature_animtion0_21.png" type="Texture" id=26]
+[ext_resource path="res://anima pulpo/Armature_animtion0_22.png" type="Texture" id=27]
+[ext_resource path="res://anima pulpo/Armature_animtion0_23.png" type="Texture" id=28]
+[ext_resource path="res://manos/palanca 0.png" type="Texture" id=29]
+[ext_resource path="res://manos/palanca 1.png" type="Texture" id=30]
+[ext_resource path="res://manos/palanca 2.png" type="Texture" id=31]
+[ext_resource path="res://manos/palanca 3.png" type="Texture" id=32]
+[ext_resource path="res://manos/palanca 4.png" type="Texture" id=33]
+[ext_resource path="res://cinta animacion/1 cinta.jpg" type="Texture" id=34]
+[ext_resource path="res://cinta animacion/2 cinta.jpg" type="Texture" id=35]
+[ext_resource path="res://cinta animacion/3 cinta.jpg" type="Texture" id=36]
+[ext_resource path="res://cinta animacion/4 cinta.jpg" type="Texture" id=37]
+[ext_resource path="res://cinta animacion/5 cinta.jpg" type="Texture" id=38]
+[ext_resource path="res://cinta animacion/6 cinta.jpg" type="Texture" id=39]
+[ext_resource path="res://assetsnpulpo/tachos.png" type="Texture" id=40]
+[ext_resource path="res://assetsnpulpo/tacho 2.png" type="Texture" id=41]
+[ext_resource path="res://assest/fondo.jpg" type="Texture" id=42]
+[ext_resource path="res://assetsnpulpo/fondo.jpg" type="Texture" id=43]
 
 [sub_resource type="DynamicFont" id=1]
 size = 100
@@ -40,7 +51,15 @@ font_data = ExtResource( 2 )
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
-"frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ) ],
+"frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ) ],
+"loop": true,
+"name": "Default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=3]
+animations = [ {
+"frames": [ ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ) ],
 "loop": true,
 "name": "default",
 "speed": 5.0
@@ -48,15 +67,7 @@ animations = [ {
 
 [sub_resource type="SpriteFrames" id=4]
 animations = [ {
-"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ) ],
-"loop": true,
-"name": "default",
-"speed": 5.0
-} ]
-
-[sub_resource type="SpriteFrames" id=3]
-animations = [ {
-"frames": [ ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ) ],
+"frames": [ ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ) ],
 "loop": true,
 "name": "default",
 "speed": 5.0
@@ -111,29 +122,31 @@ autostart = true
 [node name="Pulpo" type="Node" parent="."]
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Pulpo"]
-position = Vector2( 541.491, 247.89 )
+position = Vector2( 542.491, 196.89 )
 scale = Vector2( 0.3, 0.3 )
 z_index = -10
 frames = SubResource( 2 )
-frame = 10
+animation = "Default"
+frame = 6
 speed_scale = 2.0
 playing = true
 
 [node name="Manitos" type="Node" parent="Pulpo"]
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Pulpo/Manitos"]
-position = Vector2( 518.374, 290.69 )
+position = Vector2( 521.238, 266.346 )
 scale = Vector2( 0.3, 0.3 )
-frames = SubResource( 4 )
-frame = 2
+frames = SubResource( 3 )
+frame = 1
 playing = true
 
 [node name="cinta" type="Node" parent="."]
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="cinta"]
-position = Vector2( 508.35, 376.609 )
+position = Vector2( 506.918, 376.609 )
 scale = Vector2( 0.4, 0.3 )
-frames = SubResource( 3 )
+frames = SubResource( 4 )
+frame = 5
 speed_scale = 2.0
 playing = true
 
@@ -142,27 +155,27 @@ playing = true
 [node name="Fondo" type="Sprite" parent="Basureros"]
 position = Vector2( 582.813, 514.078 )
 scale = Vector2( 0.4, 0.4 )
-texture = ExtResource( 30 )
+texture = ExtResource( 40 )
 
 [node name="Frente" type="Sprite" parent="Basureros"]
 position = Vector2( 581.381, 548.445 )
 scale = Vector2( 0.4, 0.4 )
 z_index = 20
-texture = ExtResource( 31 )
+texture = ExtResource( 41 )
 
 [node name="Fondo" type="Node" parent="."]
 
 [node name="Fonda arriba" type="Sprite" parent="Fondo"]
-position = Vector2( 528.398, 216.228 )
-scale = Vector2( 0.5, 0.3 )
+position = Vector2( 498.327, 276.371 )
+scale = Vector2( 0.3, 0.3 )
 z_index = -70
-texture = ExtResource( 32 )
+texture = ExtResource( 42 )
 
 [node name="Fondo abajo" type="Sprite" parent="Fondo"]
 position = Vector2( 502.622, 794.745 )
 scale = Vector2( 0.425876, 0.292592 )
 z_index = 5
-texture = ExtResource( 32 )
+texture = ExtResource( 43 )
 [connection signal="timeout" from="ok/Timerok" to="." method="_on_Timerok_timeout"]
 [connection signal="timeout" from="notok/Timernot" to="." method="_on_Timernot_timeout"]
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

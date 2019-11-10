@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/fondo.jpeg-6432d1424858d7667d00c1807663ec43.stex"
+path="res://.import/Armature_animtion0_14.png-2c494e26413fdfee5d11ee7257b034c9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assest/fondo.jpeg"
-dest_files=[ "res://.import/fondo.jpeg-6432d1424858d7667d00c1807663ec43.stex" ]
+source_file="res://anima pulpo/Armature_animtion0_14.png"
+dest_files=[ "res://.import/Armature_animtion0_14.png-2c494e26413fdfee5d11ee7257b034c9.stex" ]
 
 [params]
 
