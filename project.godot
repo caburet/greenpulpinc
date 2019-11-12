@@ -30,5 +30,6 @@ window/stretch/mode="viewport"
 
 [rendering]
 
+quality/driver/driver_name="GLES2"
 vram_compression/import_etc=true
 environment/default_environment="res://default_env.tres"

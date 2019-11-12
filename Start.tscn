@@ -53,7 +53,7 @@ texture = ExtResource( 2 )
 position = Vector2( 512.224, 300.343 )
 scale = Vector2( 0.532982, 0.553848 )
 frames = SubResource( 1 )
-frame = 23
+frame = 11
 playing = true
 
 [node name="Area2D" type="Area2D" parent="."]

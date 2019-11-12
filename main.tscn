@@ -1,4 +1,4 @@
-[gd_scene load_steps=96 format=2]
+[gd_scene load_steps=98 format=2]
 
 [ext_resource path="res://main.gd" type="Script" id=1]
 [ext_resource path="res://BebasNeue-Regular.ttf" type="DynamicFontData" id=2]
@@ -86,6 +86,8 @@
 [ext_resource path="res://sonidos/chicharra.wav" type="AudioStream" id=84]
 [ext_resource path="res://sonidos/error.wav" type="AudioStream" id=85]
 [ext_resource path="res://assets-gui/error.png" type="Texture" id=86]
+[ext_resource path="res://assets/linea.png" type="Texture" id=87]
+[ext_resource path="res://assets/arriba_01.png" type="Texture" id=88]
 
 [sub_resource type="DynamicFont" id=1]
 size = 100
@@ -240,7 +242,7 @@ scale = Vector2( 0.3, 0.3 )
 z_index = -10
 frames = SubResource( 2 )
 animation = "New Anim"
-frame = 10
+frame = 4
 speed_scale = 2.0
 playing = true
 
@@ -251,7 +253,7 @@ position = Vector2( 521.238, 266.346 )
 scale = Vector2( 0.3, 0.3 )
 frames = SubResource( 3 )
 animation = "New Anim"
-frame = 3
+frame = 2
 playing = true
 
 [node name="cinta" type="Node" parent="."]
@@ -317,7 +319,7 @@ autoplay = true
 position = Vector2( 35, 137 )
 scale = Vector2( 0.3, 0.3 )
 frames = SubResource( 7 )
-frame = 8
+frame = 13
 speed_scale = 1.5
 playing = true
 
@@ -325,7 +327,6 @@ playing = true
 position = Vector2( 916, 88 )
 scale = Vector2( 0.15, 0.15 )
 frames = SubResource( 8 )
-frame = 3
 speed_scale = 1.5
 playing = true
 
@@ -350,13 +351,14 @@ scale = Vector2( 0.532112, 0.554238 )
 z_index = 120
 texture = ExtResource( 86 )
 
-[node name="ProgressBar" type="ProgressBar" parent="."]
-margin_right = 191.0
-margin_bottom = 35.0
-custom_colors/font_color = Color( 0.560784, 0.0196078, 0.0196078, 1 )
-custom_colors/font_color_shadow = Color( 0.941176, 0.0313726, 0.0313726, 1 )
-value = 20.0
-percent_visible = false
+[node name="linea" type="Sprite" parent="."]
+position = Vector2( 504.434, 30.7582 )
+scale = Vector2( 1.44, 1 )
+texture = ExtResource( 87 )
+
+[node name="pulpo" type="Sprite" parent="."]
+position = Vector2( 233.762, 32.8087 )
+texture = ExtResource( 88 )
 [connection signal="timeout" from="ok/Timerok" to="." method="_on_Timerok_timeout"]
 [connection signal="timeout" from="notok/Timernot" to="." method="_on_Timernot_timeout"]
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
