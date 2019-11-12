@@ -21,6 +21,8 @@ func _on_Timer_timeout():
 	spawn()
 	pass # Replace with function body.
 func _physics_process(delta):
+	$ProgressBar.set_value(100- (Globals.objects*100 /Globals.totalobjects))
+	print ($ProgressBar.value)
 	$Timer.wait_time=Globals.spamtime
 	$Label.text="%"+str(Globals.points*100 / Globals.totalobjects) 
 	if (Globals.showok):

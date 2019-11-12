@@ -13,8 +13,8 @@ var velocity = 2
 var spamtime = 3
 var velocity2 = 3
 var spamtime2 = 1.5
-var objects= 50
-var totalobjects = 50
+var objects= 30
+var totalobjects = 30
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
