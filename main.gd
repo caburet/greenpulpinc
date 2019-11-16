@@ -6,7 +6,23 @@ func _ready():
 	spawn()
 	pass
 
-
+# is_correct: ¿Es el item correcto?
+func item_capturing(is_correct):
+	if is_correct:
+		Globals.showok = true
+		Globals.points += 1
+		Globals.velocity += 0.1
+		
+		if Globals.spamtime > 2:
+			Globals.spamtime -= 0.1
+		else:
+			if Globals.spamtime>1.5:
+				Globals.spamtime -= 0.05
+			else:
+				Globals.spamtime -= 0.025
+	else:
+		Globals.shownotok = true
+		
 func _on_timer_timeout():
    spawn()
 #----------------------------------------------------------------------------------
@@ -15,8 +31,9 @@ func spawn():
 	if Globals.objects>0:
 		var bulletscene = preload("res://vaso.tscn")
 		var bullet = bulletscene.instance()
+		
 		add_child(bullet)
-		print ("cargo")
+
 func _on_Timer_timeout():
 	spawn()
 	pass # Replace with function body.
@@ -53,7 +70,6 @@ func _on_Timernot_timeout():
 	$"notok/Timernot".stop()
 	pass # Replace with function body.
 
-
 func _on_Timerok_timeout():
 	print ("timeout")
 	$"ok/Sprite5".hide()
@@ -63,17 +79,41 @@ func _on_Timerok_timeout():
 func terminar():
 	get_tree().change_scene( "res://creditos.tscn")
 
-
-
 func _on_timerend_timeout():
 	print ("end")
 	get_tree().change_scene( "res://Fin.tscn")
 	pass # Replace with function body.
-
 
 func _on_silvatogritando_animation_finished():
 	$silvatogritando.hide()
 	$silvatogritando.stop()
 	$silbato.show()
 	
-	pass # Replace with function body.
+# Papel
+func _on_Basurero1_item_capturing(item_type):
+	if item_type == 0:
+		item_capturing(true)
+	else:
+		item_capturing(false)
+		
+# Vidrio
+func _on_Basurero2_item_capturing(item_type):
+	if item_type == 1:
+		item_capturing(true)
+	else:
+		item_capturing(false)
+		
+# Organicos
+func _on_Basurero3_item_capturing(item_type):
+	if item_type == 2:
+		item_capturing(true)
+	else:
+		item_capturing(false)
+		
+# Plasticos
+func _on_Basurero4_item_capturing(item_type):
+	if item_type == 3:
+		item_capturing(true)
+	else:
+		item_capturing(false)
+		
