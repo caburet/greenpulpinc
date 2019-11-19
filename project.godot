@@ -12,7 +12,7 @@ _global_script_classes=[ {
 "base": "Area2D",
 "class": "Vaso",
 "language": "GDScript",
-"path": "res://vasoArea2D.gd"
+"path": "res://scripts/vasoArea2D.gd"
 } ]
 _global_script_class_icons={
 "Vaso": ""
@@ -21,13 +21,13 @@ _global_script_class_icons={
 [application]
 
 config/name="green pulp inc"
-run/main_scene="res://Start.tscn"
+run/main_scene="res://scenes/Start.tscn"
 config/icon="res://icon.png"
 
 [autoload]
 
-Globals="*res://globals.gd"
-musicafondo="*res://musicafondo.tscn"
+Globals="*res://scripts/globals.gd"
+musicafondo="*res://scenes/musicafondo.tscn"
 
 [display]
 
@@ -35,6 +35,5 @@ window/stretch/mode="viewport"
 
 [rendering]
 
-quality/driver/driver_name="GLES2"
 vram_compression/import_etc=true
 environment/default_environment="res://default_env.tres"

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/cinta.png-4532898ae520236e946344bdfb346689.stex"
+path="res://.import/cinta.png-297e4adc39f8cd5ce7192413fc95d73c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/cinta.png"
-dest_files=[ "res://.import/cinta.png-4532898ae520236e946344bdfb346689.stex" ]
+source_file="res://assest/cinta.png"
+dest_files=[ "res://.import/cinta.png-297e4adc39f8cd5ce7192413fc95d73c.stex" ]
 
 [params]
 
