@@ -1,5 +1,6 @@
 extends Area2D
 
+class_name Vaso
 
 var typearea = randi()%4
 
@@ -57,6 +58,9 @@ func _on_Area2D_input_event(viewport, event, shape_idx):
 	
 	var mal = preload("res://assets-gui/mal.png")
 	
+	# Matias: por ahora lo único que depende de la posición del mouse
+	# en la cual se clickea es el sonido
+	
 	if event is InputEventMouseButton:
 		if event.is_pressed():
 			if not clicked:
@@ -70,25 +74,6 @@ func _on_Area2D_input_event(viewport, event, shape_idx):
 						$sound3.play()
 					if typearea==3:
 						$sound4.play()
-					
-					print ("bien")
-					Globals.showok = true
-					Globals.points += 1
-					Globals.velocity += 0.1
-					if Globals.spamtime>2:
-						Globals.spamtime -= 0.1
-					else:
-						if Globals.spamtime>1.5:
-							Globals.spamtime -= 0.05
-						else:
-							Globals.spamtime -= 0.025
-				else:
-					Globals.shownotok = true
-					
-					print ("mal")
-
-			
-			
 
 
 func _on_sound1_finished():
