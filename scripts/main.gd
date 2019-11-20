@@ -94,6 +94,7 @@ func _on_silvatogritando_animation_finished():
 func _on_Basurero1_item_capturing(item_type):
 	if item_type == 0:
 		item_capturing(true)
+		print (self)
 	else:
 		item_capturing(false)
 		

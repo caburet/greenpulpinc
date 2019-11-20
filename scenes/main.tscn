@@ -239,11 +239,10 @@ autostart = true
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Pulpo"]
 position = Vector2( 542.491, 221.383 )
-scale = Vector2( 0.3, 0.3 )
 z_index = -10
 frames = SubResource( 2 )
 animation = "New Anim"
-frame = 1
+frame = 16
 speed_scale = 2.0
 playing = true
 
@@ -254,7 +253,6 @@ position = Vector2( 521.238, 266.346 )
 scale = Vector2( 0.3, 0.3 )
 frames = SubResource( 3 )
 animation = "New Anim"
-frame = 2
 playing = true
 
 [node name="cinta" type="Node" parent="."]
@@ -265,6 +263,7 @@ position = Vector2( 506.918, 376.609 )
 scale = Vector2( 0.4, 0.3 )
 frames = SubResource( 4 )
 animation = "New Anim"
+frame = 3
 speed_scale = 2.0
 playing = true
 
@@ -297,7 +296,6 @@ position = Vector2( 900, 520 )
 
 [node name="Fonda arriba" type="Sprite" parent="Fondo"]
 position = Vector2( 496.593, 275.803 )
-scale = Vector2( 0.3, 0.3 )
 z_index = -70
 texture = ExtResource( 43 )
 
@@ -330,7 +328,7 @@ autoplay = true
 position = Vector2( 35, 137 )
 scale = Vector2( 0.3, 0.3 )
 frames = SubResource( 7 )
-frame = 10
+frame = 1
 speed_scale = 1.5
 playing = true
 
@@ -338,7 +336,7 @@ playing = true
 position = Vector2( 916, 88 )
 scale = Vector2( 0.15, 0.15 )
 frames = SubResource( 8 )
-frame = 9
+frame = 2
 speed_scale = 1.5
 playing = true
 

@@ -4,9 +4,6 @@
 [ext_resource path="res://assets/fondos/intro.png" type="Texture" id=2]
 [ext_resource path="res://assets/cargando.png" type="Texture" id=3]
 
-
-
-
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 520.546, 331.066 )
 
@@ -15,7 +12,6 @@ script = ExtResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="."]
 position = Vector2( 519.112, 262.254 )
-scale = Vector2( 0.3, 0.3 )
 texture = ExtResource( 2 )
 
 [node name="Area2D" type="Area2D" parent="."]

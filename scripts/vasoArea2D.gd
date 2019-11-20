@@ -54,10 +54,7 @@ func _physics_process(delta):
 #----------------------------------------------------------------------------------
 func _on_Area2D_input_event(viewport, event, shape_idx):
 	var tiempo  
-	var bien = preload("res://assets/assets-gui/bien.png")
-	
-	var mal = preload("res://assets/assets-gui/mal.png")
-	
+
 	# Matias: por ahora lo único que depende de la posición del mouse
 	# en la cual se clickea es el sonido
 	
@@ -78,4 +75,3 @@ func _on_Area2D_input_event(viewport, event, shape_idx):
 
 func _on_sound1_finished():
 	queue_free()
-	pass # Replace with function body.
