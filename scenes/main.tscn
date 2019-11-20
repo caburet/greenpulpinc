@@ -1,4 +1,4 @@
-[gd_scene load_steps=99 format=2]
+[gd_scene load_steps=95 format=2]
 
 [ext_resource path="res://scripts/main.gd" type="Script" id=1]
 [ext_resource path="res://BebasNeue-Regular.ttf" type="DynamicFontData" id=2]
@@ -44,51 +44,49 @@
 [ext_resource path="res://scenes/basurero.tscn" type="PackedScene" id=42]
 [ext_resource path="res://assets/fondo 4.png" type="Texture" id=43]
 [ext_resource path="res://assets/fondo 3.png" type="Texture" id=44]
-[ext_resource path="res://assets/filmgrain.png" type="Texture" id=45]
-[ext_resource path="res://assets/white.png" type="Texture" id=46]
-[ext_resource path="res://sonidos/cinta transportadora.ogg" type="AudioStream" id=47]
-[ext_resource path="res://assets/silbato/Armature_newAnimation_00.png" type="Texture" id=48]
-[ext_resource path="res://assets/silbato/Armature_newAnimation_01.png" type="Texture" id=49]
-[ext_resource path="res://assets/silbato/Armature_newAnimation_02.png" type="Texture" id=50]
-[ext_resource path="res://assets/silbato/Armature_newAnimation_03.png" type="Texture" id=51]
-[ext_resource path="res://assets/silbato/Armature_newAnimation_04.png" type="Texture" id=52]
-[ext_resource path="res://assets/silbato/Armature_newAnimation_05.png" type="Texture" id=53]
-[ext_resource path="res://assets/silbato/Armature_newAnimation_06.png" type="Texture" id=54]
-[ext_resource path="res://assets/silbato/Armature_newAnimation_07.png" type="Texture" id=55]
-[ext_resource path="res://assets/silbato/Armature_newAnimation_08.png" type="Texture" id=56]
-[ext_resource path="res://assets/silbato/Armature_newAnimation_09.png" type="Texture" id=57]
-[ext_resource path="res://assets/silbato/Armature_newAnimation_10.png" type="Texture" id=58]
-[ext_resource path="res://assets/silbato/Armature_newAnimation_11.png" type="Texture" id=59]
-[ext_resource path="res://assets/silbato/Armature_newAnimation_12.png" type="Texture" id=60]
-[ext_resource path="res://assets/silbato/Armature_newAnimation_13.png" type="Texture" id=61]
-[ext_resource path="res://assets/silbato/Armature_newAnimation_14.png" type="Texture" id=62]
-[ext_resource path="res://assets/silbato/Armature_newAnimation_15.png" type="Texture" id=63]
-[ext_resource path="res://assets/reloj/Armature_animtion0_00.png" type="Texture" id=64]
-[ext_resource path="res://assets/reloj/Armature_animtion0_01.png" type="Texture" id=65]
-[ext_resource path="res://assets/reloj/Armature_animtion0_02.png" type="Texture" id=66]
-[ext_resource path="res://assets/reloj/Armature_animtion0_03.png" type="Texture" id=67]
-[ext_resource path="res://assets/reloj/Armature_animtion0_04.png" type="Texture" id=68]
-[ext_resource path="res://assets/reloj/Armature_animtion0_05.png" type="Texture" id=69]
-[ext_resource path="res://assets/reloj/Armature_animtion0_06.png" type="Texture" id=70]
-[ext_resource path="res://assets/reloj/Armature_animtion0_07.png" type="Texture" id=71]
-[ext_resource path="res://assets/reloj/Armature_animtion0_08.png" type="Texture" id=72]
-[ext_resource path="res://assets/reloj/Armature_animtion0_09.png" type="Texture" id=73]
-[ext_resource path="res://assets/reloj/Armature_animtion0_10.png" type="Texture" id=74]
-[ext_resource path="res://assets/reloj/Armature_animtion0_11.png" type="Texture" id=75]
-[ext_resource path="res://assets/reloj/Armature_animtion0_12.png" type="Texture" id=76]
-[ext_resource path="res://assets/reloj/Armature_animtion0_13.png" type="Texture" id=77]
-[ext_resource path="res://assets/silbato gritando/Armature_animtion0_0.png" type="Texture" id=78]
-[ext_resource path="res://assets/silbato gritando/Armature_animtion0_1.png" type="Texture" id=79]
-[ext_resource path="res://assets/silbato gritando/Armature_animtion0_2.png" type="Texture" id=80]
-[ext_resource path="res://assets/silbato gritando/Armature_animtion0_3.png" type="Texture" id=81]
-[ext_resource path="res://assets/silbato gritando/Armature_animtion0_4.png" type="Texture" id=82]
-[ext_resource path="res://assets/silbato gritando/Armature_animtion0_5.png" type="Texture" id=83]
-[ext_resource path="res://assets/silbato gritando/Armature_animtion0_6.png" type="Texture" id=84]
-[ext_resource path="res://sonidos/chicharra.wav" type="AudioStream" id=85]
-[ext_resource path="res://sonidos/error.wav" type="AudioStream" id=86]
-[ext_resource path="res://assets/assets-gui/error.png" type="Texture" id=87]
-[ext_resource path="res://assets/linea.png" type="Texture" id=88]
-[ext_resource path="res://assets/arriba_01.png" type="Texture" id=89]
+[ext_resource path="res://sonidos/cinta transportadora.ogg" type="AudioStream" id=45]
+[ext_resource path="res://assets/silbato/Armature_newAnimation_00.png" type="Texture" id=46]
+[ext_resource path="res://assets/silbato/Armature_newAnimation_01.png" type="Texture" id=47]
+[ext_resource path="res://assets/silbato/Armature_newAnimation_02.png" type="Texture" id=48]
+[ext_resource path="res://assets/silbato/Armature_newAnimation_03.png" type="Texture" id=49]
+[ext_resource path="res://assets/silbato/Armature_newAnimation_04.png" type="Texture" id=50]
+[ext_resource path="res://assets/silbato/Armature_newAnimation_05.png" type="Texture" id=51]
+[ext_resource path="res://assets/silbato/Armature_newAnimation_06.png" type="Texture" id=52]
+[ext_resource path="res://assets/silbato/Armature_newAnimation_07.png" type="Texture" id=53]
+[ext_resource path="res://assets/silbato/Armature_newAnimation_08.png" type="Texture" id=54]
+[ext_resource path="res://assets/silbato/Armature_newAnimation_09.png" type="Texture" id=55]
+[ext_resource path="res://assets/silbato/Armature_newAnimation_10.png" type="Texture" id=56]
+[ext_resource path="res://assets/silbato/Armature_newAnimation_11.png" type="Texture" id=57]
+[ext_resource path="res://assets/silbato/Armature_newAnimation_12.png" type="Texture" id=58]
+[ext_resource path="res://assets/silbato/Armature_newAnimation_13.png" type="Texture" id=59]
+[ext_resource path="res://assets/silbato/Armature_newAnimation_14.png" type="Texture" id=60]
+[ext_resource path="res://assets/silbato/Armature_newAnimation_15.png" type="Texture" id=61]
+[ext_resource path="res://assets/reloj/Armature_animtion0_00.png" type="Texture" id=62]
+[ext_resource path="res://assets/reloj/Armature_animtion0_01.png" type="Texture" id=63]
+[ext_resource path="res://assets/reloj/Armature_animtion0_02.png" type="Texture" id=64]
+[ext_resource path="res://assets/reloj/Armature_animtion0_03.png" type="Texture" id=65]
+[ext_resource path="res://assets/reloj/Armature_animtion0_04.png" type="Texture" id=66]
+[ext_resource path="res://assets/reloj/Armature_animtion0_05.png" type="Texture" id=67]
+[ext_resource path="res://assets/reloj/Armature_animtion0_06.png" type="Texture" id=68]
+[ext_resource path="res://assets/reloj/Armature_animtion0_07.png" type="Texture" id=69]
+[ext_resource path="res://assets/reloj/Armature_animtion0_08.png" type="Texture" id=70]
+[ext_resource path="res://assets/reloj/Armature_animtion0_09.png" type="Texture" id=71]
+[ext_resource path="res://assets/reloj/Armature_animtion0_10.png" type="Texture" id=72]
+[ext_resource path="res://assets/reloj/Armature_animtion0_11.png" type="Texture" id=73]
+[ext_resource path="res://assets/reloj/Armature_animtion0_12.png" type="Texture" id=74]
+[ext_resource path="res://assets/reloj/Armature_animtion0_13.png" type="Texture" id=75]
+[ext_resource path="res://assets/silbato gritando/Armature_animtion0_0.png" type="Texture" id=76]
+[ext_resource path="res://assets/silbato gritando/Armature_animtion0_1.png" type="Texture" id=77]
+[ext_resource path="res://assets/silbato gritando/Armature_animtion0_2.png" type="Texture" id=78]
+[ext_resource path="res://assets/silbato gritando/Armature_animtion0_3.png" type="Texture" id=79]
+[ext_resource path="res://assets/silbato gritando/Armature_animtion0_4.png" type="Texture" id=80]
+[ext_resource path="res://assets/silbato gritando/Armature_animtion0_5.png" type="Texture" id=81]
+[ext_resource path="res://assets/silbato gritando/Armature_animtion0_6.png" type="Texture" id=82]
+[ext_resource path="res://sonidos/chicharra.wav" type="AudioStream" id=83]
+[ext_resource path="res://sonidos/error.wav" type="AudioStream" id=84]
+[ext_resource path="res://assets/assets-gui/error.png" type="Texture" id=85]
+[ext_resource path="res://assets/linea.png" type="Texture" id=86]
+[ext_resource path="res://assets/arriba_01.png" type="Texture" id=87]
 
 [sub_resource type="DynamicFont" id=1]
 size = 100
@@ -119,55 +117,9 @@ animations = [ {
 "speed": 5.0
 } ]
 
-[sub_resource type="Shader" id=5]
-code = "shader_type canvas_item;
-
-uniform vec4 base : hint_color;
-uniform sampler2D grain;
-uniform float grain_strength = 0.3;
-uniform sampler2D vignette;
-uniform float fps = 12.0;
-uniform float stretch = 0.5;
-uniform float flashing = 0.01;
-
-float make_grain(float time, vec2 uv) {
-
-	vec2 ofs = vec2(sin(41.0 * time * sin(time * 123.0)), sin(27.0 * time * sin(time * 312.0)));
-	return texture(grain, (uv + mod(ofs, vec2(1.0, 1.0))) * stretch).r;
-}
-
-void fragment() {
-	vec3 c = textureLod(SCREEN_TEXTURE, SCREEN_UV, 0.0).rgb;
-	
-	//float v = max(c.r, max(c.g, c.b));
-	float v = dot(c, vec3(0.33333, 0.33333, 0.33333));
-	v = sqrt(v);
-	//v *= v;
-	
-	float f = 1.0 / fps;
-	float g = make_grain(TIME - mod(TIME, f), UV);
-	g = max(g, make_grain(TIME - mod(TIME, f) + f, UV) * 0.5);
-	g = max(g, make_grain(TIME - mod(TIME, f) + f * 2.0, UV) * 0.25);
-	
-	COLOR.rgb = base.rgb * v - vec3(g) * grain_strength;
-	COLOR.rgb *= texture(vignette, UV).r;
-	float ft = TIME * 0.002;
-	COLOR.rgb += vec3(sin(75.0 * ft * sin(ft * 123.0))) * flashing;
-}
-"
-
-[sub_resource type="ShaderMaterial" id=6]
-shader = SubResource( 5 )
-shader_param/base = Color( 1, 0.964706, 0.964706, 1 )
-shader_param/grain_strength = 0.1
-shader_param/fps = 20.0
-shader_param/stretch = 0.2
-shader_param/flashing = 0.01
-shader_param/grain = ExtResource( 45 )
-
 [sub_resource type="SpriteFrames" id=7]
 animations = [ {
-"frames": [ ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ) ],
+"frames": [ ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ) ],
 "loop": true,
 "name": "default",
 "speed": 5.0
@@ -175,7 +127,7 @@ animations = [ {
 
 [sub_resource type="SpriteFrames" id=8]
 animations = [ {
-"frames": [ ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ), ExtResource( 72 ), ExtResource( 73 ), ExtResource( 74 ), ExtResource( 75 ), ExtResource( 76 ), ExtResource( 77 ) ],
+"frames": [ ExtResource( 62 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ), ExtResource( 72 ), ExtResource( 73 ), ExtResource( 74 ), ExtResource( 75 ) ],
 "loop": true,
 "name": "default",
 "speed": 5.0
@@ -183,7 +135,7 @@ animations = [ {
 
 [sub_resource type="SpriteFrames" id=9]
 animations = [ {
-"frames": [ ExtResource( 78 ), ExtResource( 79 ), ExtResource( 80 ), ExtResource( 81 ), ExtResource( 82 ), ExtResource( 83 ), ExtResource( 84 ) ],
+"frames": [ ExtResource( 76 ), ExtResource( 77 ), ExtResource( 78 ), ExtResource( 79 ), ExtResource( 80 ), ExtResource( 81 ), ExtResource( 82 ) ],
 "loop": true,
 "name": "default",
 "speed": 5.0
@@ -242,7 +194,7 @@ position = Vector2( 542.491, 221.383 )
 z_index = -10
 frames = SubResource( 2 )
 animation = "New Anim"
-frame = 16
+frame = 18
 speed_scale = 2.0
 playing = true
 
@@ -263,7 +215,7 @@ position = Vector2( 506.918, 376.609 )
 scale = Vector2( 0.4, 0.3 )
 frames = SubResource( 4 )
 animation = "New Anim"
-frame = 3
+frame = 5
 speed_scale = 2.0
 playing = true
 
@@ -307,28 +259,18 @@ z_index = -5
 texture = ExtResource( 44 )
 flip_h = true
 
-[node name="TextureRect" type="TextureRect" parent="."]
-visible = false
-material = SubResource( 6 )
-margin_left = -24.8961
-margin_top = -16.0
-margin_right = 1052.1
-margin_bottom = 642.0
-texture = ExtResource( 46 )
-expand = true
-
 [node name="timerend" type="Timer" parent="."]
 wait_time = 4.84
 
 [node name="ruidocinta" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 47 )
+stream = ExtResource( 45 )
 autoplay = true
 
 [node name="silbato" type="AnimatedSprite" parent="."]
 position = Vector2( 35, 137 )
 scale = Vector2( 0.3, 0.3 )
 frames = SubResource( 7 )
-frame = 1
+frame = 3
 speed_scale = 1.5
 playing = true
 
@@ -336,7 +278,7 @@ playing = true
 position = Vector2( 916, 88 )
 scale = Vector2( 0.15, 0.15 )
 frames = SubResource( 8 )
-frame = 2
+frame = 4
 speed_scale = 1.5
 playing = true
 
@@ -349,26 +291,26 @@ frame = 1
 speed_scale = 1.5
 
 [node name="sonidochicharra" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 85 )
+stream = ExtResource( 83 )
 
 [node name="error" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 86 )
+stream = ExtResource( 84 )
 
 [node name="errorsprite" type="Sprite" parent="."]
 visible = false
 position = Vector2( 511.982, 298.188 )
 scale = Vector2( 0.532112, 0.554238 )
 z_index = 120
-texture = ExtResource( 87 )
+texture = ExtResource( 85 )
 
 [node name="linea" type="Sprite" parent="."]
 position = Vector2( 504.434, 30.7582 )
 scale = Vector2( 1.44, 1 )
-texture = ExtResource( 88 )
+texture = ExtResource( 86 )
 
 [node name="pulpo" type="Sprite" parent="."]
 position = Vector2( 233.762, 32.8087 )
-texture = ExtResource( 89 )
+texture = ExtResource( 87 )
 [connection signal="timeout" from="ok/Timerok" to="." method="_on_Timerok_timeout"]
 [connection signal="timeout" from="notok/Timernot" to="." method="_on_Timernot_timeout"]
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
